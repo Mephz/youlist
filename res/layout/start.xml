@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/startMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000">
+
+    <Button
+        android:id="@+id/appLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/play_header" 
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"/>
+    
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="YouList"
+        android:textSize="30sp"
+        android:textColor="#FFF"
+	    android:layout_marginTop="20dp"
+        android:gravity="center|top"/>
+	<EditText 
+	    android:id="@+id/getUserName"
+	    android:inputType="text"
+	    android:hint="Youtube Username"
+	   	android:ellipsize="start"
+	   	android:textColor="@android:color/white"
+	   	android:gravity="center"
+	   	android:singleLine="true"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:background="#191617"/>
+    
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/musiclist_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <LinearLayout
+        android:id="@+id/musicLayout"
+        android:layout_width="80dp"
+        android:layout_height="80dp" 
+        android:background="#151618"
+        android:layout_gravity="left">
+        
+    <ImageView
+        android:id="@+id/musicImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/musicInfo"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_gravity="left"
+        android:background="#151618"
+        android:orientation="vertical" >
+     
+     <TextView 
+        android:id="@+id/musicName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Four Horsemen"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:scrollHorizontally="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/white" 
+        android:layout_gravity="left"/>
+    
+    <TextView 
+        android:id="@+id/musicAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Por Mephzreal"
+        android:textSize="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/white" 
+        android:layout_gravity="left"/>
+    <TextView 
+        android:id="@+id/musicViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123456789 Views"
+        android:textSize="10sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/white" 
+        android:layout_gravity="left"/>
+    
+</LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/musicInfo2"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="left"
+        android:background="#151618"
+        android:orientation="vertical" >
+    
+   <TextView 
+        android:id="@+id/musicTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="3:45"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+     	android:layout_marginTop="25dp"/>
+	
+    </LinearLayout>
+    
+
+    
+
+</LinearLayout>
