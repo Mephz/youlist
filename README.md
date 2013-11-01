@@ -1,5 +1,7 @@
-AndroidProject
+YouList
 ==============
+
+Mobile App that fetches Playlists from Youtube users.
 
 ![ScreenShot](http://i.imgur.com/pMEZjXk.png)
 
